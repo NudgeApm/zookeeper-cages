@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.commons.lang.NotImplementedException;
+import org.apache.commons.lang3.NotImplementedException;
 import org.scale7.networking.utility.NetworkAlgorithms;
 import org.scale7.portability.SystemProxy;
 import org.scale7.zookeeper.cages.ZkCagesException.Error;
@@ -116,7 +116,7 @@ public class ZkMultiPathLock implements IMultiPathLock {
 	/** {@inheritDoc} */
 	@Override
 	public void acquire(ILockListener listener, Object context) throws ZkCagesException, InterruptedException {
-		throw new NotImplementedException();
+		throw new NotImplementedException("");
 	}
 
 	/** {@inheritDoc} */
@@ -176,7 +176,7 @@ public class ZkMultiPathLock implements IMultiPathLock {
 	/** {@inheritDoc} */
 	@Override
 	public void tryAcquire(ITryLockListener listener, Object context) throws ZkCagesException, InterruptedException {
-		throw new NotImplementedException();
+		throw new NotImplementedException("");
 	}
 
 	/** {@inheritDoc} */
