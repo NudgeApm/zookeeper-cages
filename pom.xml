@@ -8,13 +8,17 @@
 		<version>1.17</version>
 	</parent>
 	
-	<groupId>org.apache.zookeeper</groupId>
-	<artifactId>cages-nudge</artifactId>
+	<groupId>org.scale7</groupId>
+	<artifactId>scale7-cages</artifactId>
 	<packaging>jar</packaging>
-	<version>0.9.2-SNAPSHOT</version>
+	<version>0.9-SNAPSHOT</version>
 	<name>Cages - A library for distributed locking and synchronization using ZooKeeper</name>
 	<url>http://github.com/s7</url>
 	
+	<scm>
+		<developerConnection>${scm.github.rootPath}zookeeper-cages.git</developerConnection>
+	</scm>
+
 	<build>
 		<plugins>
 			
