@@ -77,7 +77,7 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>com.github.stephenc.scale7</groupId>
+			<groupId>org.scale7</groupId>
 			<artifactId>scale7-core</artifactId>
 			<version>1.4.3</version>
 		</dependency>
