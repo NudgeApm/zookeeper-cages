@@ -10,13 +10,13 @@
 	<groupId>org.scale7</groupId>
 	<artifactId>scale7-cages</artifactId>
 	<packaging>jar</packaging>
-	<version>0.9</version>
+	<version>0.10-SNAPSHOT</version>
 	<name>Cages - A library for distributed locking and synchronization using ZooKeeper</name>
 	<url>http://github.com/s7</url>
 	
 	<scm>
 		<developerConnection>${scm.github.rootPath}zookeeper-cages.git</developerConnection>
-	  <tag>scale7-cages-0.9</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<build>
