@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
@@ -11,13 +10,14 @@
 	<groupId>org.scale7</groupId>
 	<artifactId>scale7-cages</artifactId>
 	<packaging>jar</packaging>
-	<version>0.9-SNAPSHOT</version>
+	<version>0.9</version>
 	<name>Cages - A library for distributed locking and synchronization using ZooKeeper</name>
 	<url>http://github.com/s7</url>
 	
 	<scm>
 		<developerConnection>${scm.github.rootPath}zookeeper-cages.git</developerConnection>
-	</scm>
+	  <tag>scale7-cages-0.9</tag>
+  </scm>
 
 	<build>
 		<plugins>
